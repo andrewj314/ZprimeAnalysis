@@ -1,6 +1,6 @@
-#########################################################################################################
-Code developed by: Andres Florez (Los Andes), Alfredo Gurrola (Vanderbilt) and Amandeep Kalsi (Panjab)
-##########################################################################################################
+##################################################################################################################################
+Code developed by: Andres Florez (Los Andes), Alfredo Gurrola (Vanderbilt), Amandeep Kalsi (Panjab), and Andrew Johnson (Colorado)
+##################################################################################################################################
 
 The recipe is to install the code at LPC/ACCRE. 
 Therefore, to install the code elsewere, you'd need 
