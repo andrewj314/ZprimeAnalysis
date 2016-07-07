@@ -1,0 +1,116 @@
+#========= VBF DM
+
+imax 1  number of channels
+jmax 6  number of backgrounds
+kmax 99 number of nuisance parameters (sources of systematic uncertainties)
+
+# we have just one channel and will use some dummy data
+bin 1
+observation DATA
+
+bin            1	1	1	1	1	1	1
+process        SIG      W+j     Z+j	ttb	VV	qcd	Higgs
+process        0        1       2	3	4	5	6
+rate           SIGNAL   WJETS   DYTOLL  TTBAR   DIBOSON QCD     HIGGS
+
+lumi    lnN    1.05    1.05   1.05	1.05	1.05	-       -
+ISR20	lnN    -	-	-	-	-	-	-
+ISR21	lnN    -	-	-	-	-	-	-
+ISR22	lnN    -	-	-	-	-	-	-
+ISR23	lnN    -	-	-	-	-	-	-
+ISR24	lnN    -	-	-	-	-	-	-
+ISR25	lnN    -	-	-	-	-	-	-
+ISR26	lnN    -	-	-	-	-	-	-
+PDF20	lnN    -	-	-	-	-	-	-
+PDF21	lnN    -	-	-	-	-	-	-
+PDF22	lnN    -	-	-	-	-	-	-
+PDF23	lnN    -	-	-	-	-	-	-
+PDF24	lnN    -	-	-	-	-	-	-
+PDF25	lnN    -	-	-	-	-	-	-
+PDF26	lnN    -	-	-	-	-	-	-
+STMC20	lnN    -	-	-	-	-	-	-
+STMC21	lnN    -	-	-	-	-	-	-
+STMC22	lnN    -	-	-	-	-	-	-
+STMC23	lnN    -	-	-	-	-	-	-
+STMC24	lnN    -	-	-	-	-       -	-
+STMC25	lnN    -	-	-	-	-	-	-
+STMC26	lnN    -	-	-	-	-	-	-
+STDA20	lnN    -	-	-	-	-	-	-
+STDA21	lnN    -	-	-	-	-	-	-
+STDA22	lnN    -	-	-	-	-	-	-
+STDA23	lnN    -	-	-	-	-	-	-
+STDA24	lnN    -	-	-	-	-	-	-
+STDA25	lnN    -	-	-	-	-	-	-
+STDA26	lnN    -	-	-	-	-	-	-
+Trig20	lnN    1.21	-	-	-	-	-	-
+Trig21	lnN    -	-	-	-	-	-	-
+Trig22	lnN    -	-	-	-	-	-	-
+Trig23	lnN    -	-	-	-	-	-	-
+Trig24	lnN    -	-	-	-	-	-	-
+Trig25	lnN    -	-	-	-	-	-	-
+Trig26	lnN    -	-	-	-	-	-	-
+MuID20	lnN    -	-	-	-	-	-	-
+MuID21	lnN    -	-	-	-	-	-	-
+MuID22	lnN    -	-	-	-	-	-	-
+MuID23	lnN    -	-	-	-	-	-	-
+MuID24	lnN    -	-	-	-	-	-	-
+MuID25	lnN    -	-	-	-	-	-	-
+MuID26	lnN    -	-	-	-	-	-	-
+ElID20	lnN    -	-	-	-	-	-	-
+ElID21	lnN    -	-	-	-	-	-	-
+ElID22	lnN    -	-	-	-	-	-	-
+ElID23	lnN    -	-	-	-	-	-	-
+ElID24	lnN    -	-	-	-	-	-	-
+ElID25	lnN    -	-	-	-	-	-	-
+ElID26	lnN    -	-	-	-	-	-	-
+TaID00  lnN    -        1.3     1.12    -       -       -       -
+TaID01  lnN    -        -       -       -       -       -       -
+TaID02  lnN    -        -       -       -       -       -       -
+TaID03  lnN    -        -       -       1.12    -       -       -
+TaID04  lnN    -        -       -       -       -       -       -
+TaID05  lnN    -        -       -       -       -       -       -
+TaID06  lnN    -        -       -       -       -       -       -
+bID20	lnN    -	1.1	-	-	-	-	-
+bID21	lnN    -	-	1.03	-	-	-	-
+bID22	lnN    -	-	-	-	-	-	-
+bID23	lnN    -	-	-	1.1	-	-	-
+bID24	lnN    -	-	-	-	-	-	-
+bID25	lnN    -	-	-	-	-	-	-
+bID26	lnN    -	-	-	-	-	-	-
+EES20	lnN    -	-	-	-	-	-	-
+EES21	lnN    -	-	-	-	-	-	-
+EES22	lnN    -	-	-	-	-	-	-
+EES23	lnN    -	-	-	-	-	-	-
+EES24	lnN    -	-	-	-	-	-	-
+EES25	lnN    -	-	-	-	-	-	-
+EES26	lnN    -	-	-	-	-	-	-
+MMS20	lnN    -	-	-	-	-	-	-
+MMS21	lnN    -	-	-	-	-	-	-
+MMS22	lnN    -	-	-	-	-	-	-
+MMS23	lnN    -	-	-	-	-	-	-
+MMS24	lnN    -	-	-	-	-	-	-
+MMS25	lnN    -	-	-	-	-	-	-
+MMS26	lnN    -	-	-	-	-	-	-
+TES00	lnN    -	-	-	-	-	-	-
+TES01	lnN    -	1.11	-	-	-	-	-
+TES02	lnN    -	-	1.11	-	-	-	-
+TES03	lnN    -	-	-	1.11	-	-	-
+TES04	lnN    -	-	-	-	-	-	-
+TES05	lnN    -	-	-	-	-	-	-
+TES06	lnN    -	-	-	-	-	-	-
+JES20	lnN    -	-	-	-	-	-	-
+JES21	lnN    -	-	-	-	-	-	-
+JES22	lnN    -	-	-	-	-	-	-
+JES23	lnN    -	-	-	-	-	-	-
+JES24	lnN    -	-	-	-	-	-	-
+JES25	lnN    -	-	-	-	-	-	-
+JES26	lnN    -	-	-	-	-	-	-
+Close20	lnN    -	-	-	-	-	-	-
+Close21	lnN    -	1.37	-	-	-	-	-
+Close22	lnN    -	-	-	-	-	-	-
+Close23	lnN    -	-	-	-	-	-	-
+Close24	lnN    -	-	-	-	-	-	-
+Close25	lnN    -	-	-	-	-	1.08	-
+Close26	lnN    -	-	-	-	-	-	-
+
+#=============================================
